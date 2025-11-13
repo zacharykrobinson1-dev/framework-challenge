@@ -1,39 +1,46 @@
 a.active {
   font-weight: bold;
-  color: #006400;
+  color: #00703c;
   text-decoration: underline;
 }
 
 body {
-  background-color: #f7fff7;
+  background-color: #f8fff8;
   max-width: 900px;
   margin: auto;
   padding: 1rem;
 }
 
 h1, h2 {
-  color: #006400;
+  color: #00703c;
 }
 
 .logo-gallery {
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   margin: 1rem 0;
 }
 
 .logo-gallery img {
-  width: 200px;
-  border: 2px solid #006400;
+  width: 220px;
+  border: 2px solid #00703c;
   border-radius: 6px;
   background-color: white;
   padding: 0.5rem;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #333;
+  margin-top: 0.3rem;
 }
 
 footer {
   text-align: center;
   margin-top: 3rem;
   font-size: 0.9em;
-  color: #333;
+  color: #444;
 }
