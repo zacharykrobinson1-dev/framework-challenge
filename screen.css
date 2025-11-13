@@ -1,46 +1,73 @@
-a.active {
-  font-weight: bold;
-  color: #00703c;
-  text-decoration: underline;
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8fff8;
+  color: #0a4400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-body {
-  background-color: #f8fff8;
+header {
+  padding: 2rem 1rem;
+  background-color: #e6f5e6;
+  border-bottom: 3px solid #0a4400;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo-section {
+  margin: 3rem auto;
   max-width: 900px;
-  margin: auto;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
   padding: 1rem;
 }
 
-h1, h2 {
-  color: #00703c;
+figure {
+  background: white;
+  border: 2px solid #0a4400;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
 }
 
-.logo-gallery {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 1rem 0;
+figure:hover {
+  transform: scale(1.05);
 }
 
-.logo-gallery img {
-  width: 220px;
-  border: 2px solid #00703c;
-  border-radius: 6px;
-  background-color: white;
-  padding: 0.5rem;
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 figcaption {
-  text-align: center;
-  font-size: 0.9em;
-  color: #333;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.rules {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+  color: #043d00;
 }
 
 footer {
-  text-align: center;
+  padding: 1rem;
   margin-top: 3rem;
-  font-size: 0.9em;
-  color: #444;
+  background-color: #e6f5e6;
+  font-size: 0.9rem;
 }
